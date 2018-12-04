@@ -21,7 +21,7 @@ class PokemonRepositoryImpl @Inject constructor(
         return restApiService.getListPokemon()
             .map{
                     response -> if(response.isSuccessful && response.body() != null){
-                response.body()?.results
+                response.body()?.pokemon
                 }else{
                 null
                 }

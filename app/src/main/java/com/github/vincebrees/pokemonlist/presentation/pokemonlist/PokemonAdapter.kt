@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.bumptech.glide.Glide
 import com.github.vincebrees.pokemonlist.R
 import com.github.vincebrees.pokemonlist.domain.Pokemon
 import kotlinx.android.synthetic.main.pokemon_view_holder.view.*
@@ -29,6 +30,9 @@ class PokemonAdapter(val context: Context, var listModel: List<Pokemon>) : Recyc
         fun bindItem(model: Pokemon) {
             with(itemView) {
                 item_pokemon_name.text = model.name
+                Glide.with(context)
+                    .load(model.img)
+                    .into(item_pokemon_img);
             }
         }
     }

@@ -29,11 +29,12 @@ class RemoteModule {
         OkHttpClient.Builder()
             .addInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
             .connectTimeout(30, TimeUnit.SECONDS)
+            .hostnameVerifier{hostname, session -> true}
             .build()
 
     @Provides @Singleton fun provideRestApiService(gson: Gson, okHttpClient: OkHttpClient): RestApiService =
         Retrofit.Builder()
-            .baseUrl("https://pokeapi.co/api/v2/")
+            .baseUrl("https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/")
             .addConverterFactory(GsonConverterFactory.create(gson))
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .client(okHttpClient)

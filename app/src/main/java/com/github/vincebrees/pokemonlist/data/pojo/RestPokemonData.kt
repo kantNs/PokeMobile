@@ -8,8 +8,5 @@ import com.github.vincebrees.pokemonlist.domain.Pokemon
 
 //New Way to have a Pojo with KOTLIN <3
 data class RestPokemonData(
-    val count : Int,
-    val next : Int,
-    val previous : Int,
-    val results : List<Pokemon>
+    val pokemon : List<Pokemon>
 )

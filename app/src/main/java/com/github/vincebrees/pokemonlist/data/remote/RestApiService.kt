@@ -14,7 +14,7 @@ import retrofit2.http.Path
 
 interface RestApiService{
 
-    @GET("/api/v2/pokemon")
+    @GET("pokedex.json")
     fun getListPokemon(): Single<Response<RestPokemonData>>
 
 

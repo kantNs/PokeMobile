@@ -12,6 +12,7 @@
             android:padding="16dp">
 
         <ImageView
+                android:id="@+id/item_pokemon_img"
                 android:scaleType="fitXY"
                 android:src="@drawable/ic_launcher_background"
                 android:layout_width="150dp"
