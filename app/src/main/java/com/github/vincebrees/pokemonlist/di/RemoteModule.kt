@@ -34,7 +34,7 @@ class RemoteModule {
 
     @Provides @Singleton fun provideRestApiService(gson: Gson, okHttpClient: OkHttpClient): RestApiService =
         Retrofit.Builder()
-            .baseUrl("https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/")
+            .baseUrl("https://raw.githubusercontent.com/kantNs/PokeMobile/master/")
             .addConverterFactory(GsonConverterFactory.create(gson))
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .client(okHttpClient)
