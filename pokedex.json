@@ -105,7 +105,7 @@
     ],
     "height": "0.61 m",
     "weight": "8.5 kg",
-    "candy": "Charmander Candy",
+    "candy": "Salamèche Candy",
     "candy_count": 25,
     "egg": "2 km",
     "spawn_chance": 0.253,
@@ -134,7 +134,7 @@
     ],
     "height": "1.09 m",
     "weight": "19.0 kg",
-    "candy": "Charmander Candy",
+    "candy": "Salamèche Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
     "spawn_chance": 0.012,
@@ -165,7 +165,7 @@
     ],
     "height": "1.70 m",
     "weight": "90.5 kg",
-    "candy": "Charmander Candy",
+    "candy": "Salamèche Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0031,
     "avg_spawns": 0.31,
@@ -178,22 +178,22 @@
     ],
     "prev_evolution": [{
       "num": "004",
-      "name": "Charmander"
+      "name": "Salamèche"
     }, {
       "num": "005",
-      "name": "Charmeleon"
+      "name": "Reptincel"
     }]
   }, {
     "id": 7,
     "num": "007",
-    "name": "Squirtle",
+    "name": "Carapuce",
     "img": "http://www.serebii.net/pokemongo/pokemon/007.png",
     "type": [
       "Water"
     ],
     "height": "0.51 m",
     "weight": "9.0 kg",
-    "candy": "Squirtle Candy",
+    "candy": "Carapuce Candy",
     "candy_count": 25,
     "egg": "2 km",
     "spawn_chance": 0.58,
@@ -206,22 +206,22 @@
     ],
     "next_evolution": [{
       "num": "008",
-      "name": "Wartortle"
+      "name": "Carabaffe"
     }, {
       "num": "009",
-      "name": "Blastoise"
+      "name": "Tortank"
     }]
   }, {
     "id": 8,
     "num": "008",
-    "name": "Wartortle",
+    "name": "Carabaffe",
     "img": "http://www.serebii.net/pokemongo/pokemon/008.png",
     "type": [
       "Water"
     ],
     "height": "0.99 m",
     "weight": "22.5 kg",
-    "candy": "Squirtle Candy",
+    "candy": "Carapuce Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
     "spawn_chance": 0.034,
@@ -234,23 +234,23 @@
     ],
     "prev_evolution": [{
       "num": "007",
-      "name": "Squirtle"
+      "name": "Carapuce"
     }],
     "next_evolution": [{
       "num": "009",
-      "name": "Blastoise"
+      "name": "Tortank"
     }]
   }, {
     "id": 9,
     "num": "009",
-    "name": "Blastoise",
+    "name": "Tortank",
     "img": "http://www.serebii.net/pokemongo/pokemon/009.png",
     "type": [
       "Water"
     ],
     "height": "1.60 m",
     "weight": "85.5 kg",
-    "candy": "Squirtle Candy",
+    "candy": "Carapuce Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0067,
     "avg_spawns": 0.67,
@@ -262,22 +262,22 @@
     ],
     "prev_evolution": [{
       "num": "007",
-      "name": "Squirtle"
+      "name": "Carapuce"
     }, {
       "num": "008",
-      "name": "Wartortle"
+      "name": "Carabaffe"
     }]
   }, {
     "id": 10,
     "num": "010",
-    "name": "Caterpie",
+    "name": "Chenipan",
     "img": "http://www.serebii.net/pokemongo/pokemon/010.png",
     "type": [
       "Bug"
     ],
     "height": "0.30 m",
     "weight": "2.9 kg",
-    "candy": "Caterpie Candy",
+    "candy": "Chenipan Candy",
     "candy_count": 12,
     "egg": "2 km",
     "spawn_chance": 3.032,
@@ -291,22 +291,22 @@
     ],
     "next_evolution": [{
       "num": "011",
-      "name": "Metapod"
+      "name": "Chrysacier"
     }, {
       "num": "012",
-      "name": "Butterfree"
+      "name": "Papilusion"
     }]
   }, {
     "id": 11,
     "num": "011",
-    "name": "Metapod",
+    "name": "Chrysacier",
     "img": "http://www.serebii.net/pokemongo/pokemon/011.png",
     "type": [
       "Bug"
     ],
     "height": "0.71 m",
     "weight": "9.9 kg",
-    "candy": "Caterpie Candy",
+    "candy": "Chenipan Candy",
     "candy_count": 50,
     "egg": "Not in Eggs",
     "spawn_chance": 0.187,
@@ -323,16 +323,16 @@
     ],
     "prev_evolution": [{
       "num": "010",
-      "name": "Caterpie"
+      "name": "Chenipan"
     }],
     "next_evolution": [{
       "num": "012",
-      "name": "Butterfree"
+      "name": "Papilusion"
     }]
   }, {
     "id": 12,
     "num": "012",
-    "name": "Butterfree",
+    "name": "Papilusion",
     "img": "http://www.serebii.net/pokemongo/pokemon/012.png",
     "type": [
       "Bug",
@@ -340,7 +340,7 @@
     ],
     "height": "1.09 m",
     "weight": "32.0 kg",
-    "candy": "Caterpie Candy",
+    "candy": "Chenipan Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.022,
     "avg_spawns": 2.2,
@@ -355,15 +355,15 @@
     ],
     "prev_evolution": [{
       "num": "010",
-      "name": "Caterpie"
+      "name": "Chenipan"
     }, {
       "num": "011",
-      "name": "Metapod"
+      "name": "Chrysacier"
     }]
   }, {
     "id": 13,
     "num": "013",
-    "name": "Weedle",
+    "name": "Aspicot",
     "img": "http://www.serebii.net/pokemongo/pokemon/013.png",
     "type": [
       "Bug",
@@ -371,7 +371,7 @@
     ],
     "height": "0.30 m",
     "weight": "3.2 kg",
-    "candy": "Weedle Candy",
+    "candy": "Aspicot Candy",
     "candy_count": 12,
     "egg": "2 km",
     "spawn_chance": 7.12,
@@ -389,15 +389,15 @@
     ],
     "next_evolution": [{
       "num": "014",
-      "name": "Kakuna"
+      "name": "Coconfort"
     }, {
       "num": "015",
-      "name": "Beedrill"
+      "name": "Dardargnan"
     }]
   }, {
     "id": 14,
     "num": "014",
-    "name": "Kakuna",
+    "name": "Coconfort",
     "img": "http://www.serebii.net/pokemongo/pokemon/014.png",
     "type": [
       "Bug",
@@ -405,7 +405,7 @@
     ],
     "height": "0.61 m",
     "weight": "10.0 kg",
-    "candy": "Weedle Candy",
+    "candy": "Aspicot Candy",
     "candy_count": 50,
     "egg": "Not in Eggs",
     "spawn_chance": 0.44,
@@ -423,16 +423,16 @@
     ],
     "prev_evolution": [{
       "num": "013",
-      "name": "Weedle"
+      "name": "Aspicot"
     }],
     "next_evolution": [{
       "num": "015",
-      "name": "Beedrill"
+      "name": "Dardargnan"
     }]
   }, {
     "id": 15,
     "num": "015",
-    "name": "Beedrill",
+    "name": "Dardargnan",
     "img": "http://www.serebii.net/pokemongo/pokemon/015.png",
     "type": [
       "Bug",
@@ -440,7 +440,7 @@
     ],
     "height": "0.99 m",
     "weight": "29.5 kg",
-    "candy": "Weedle Candy",
+    "candy": "Aspicot Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.051,
     "avg_spawns": 5.1,
@@ -454,15 +454,15 @@
     ],
     "prev_evolution": [{
       "num": "013",
-      "name": "Weedle"
+      "name": "Aspicot"
     }, {
       "num": "014",
-      "name": "Kakuna"
+      "name": "Coconfort"
     }]
   }, {
     "id": 16,
     "num": "016",
-    "name": "Pidgey",
+    "name": "Roucool",
     "img": "http://www.serebii.net/pokemongo/pokemon/016.png",
     "type": [
       "Normal",
@@ -470,7 +470,7 @@
     ],
     "height": "0.30 m",
     "weight": "1.8 kg",
-    "candy": "Pidgey Candy",
+    "candy": "Roucool Candy",
     "candy_count": 12,
     "egg": "2 km",
     "spawn_chance": 15.98,
@@ -486,15 +486,15 @@
     ],
     "next_evolution": [{
       "num": "017",
-      "name": "Pidgeotto"
+      "name": "Roucoups"
     }, {
       "num": "018",
-      "name": "Pidgeot"
+      "name": "Roucarnage"
     }]
   }, {
     "id": 17,
     "num": "017",
-    "name": "Pidgeotto",
+    "name": "Roucoups",
     "img": "http://www.serebii.net/pokemongo/pokemon/017.png",
     "type": [
       "Normal",
@@ -502,7 +502,7 @@
     ],
     "height": "1.09 m",
     "weight": "30.0 kg",
-    "candy": "Pidgey Candy",
+    "candy": "Roucool Candy",
     "candy_count": 50,
     "egg": "Not in Eggs",
     "spawn_chance": 1.02,
@@ -515,16 +515,16 @@
     ],
     "prev_evolution": [{
       "num": "016",
-      "name": "Pidgey"
+      "name": "Roucool"
     }],
     "next_evolution": [{
       "num": "018",
-      "name": "Pidgeot"
+      "name": "Roucarnage"
     }]
   }, {
     "id": 18,
     "num": "018",
-    "name": "Pidgeot",
+    "name": "Roucarnage",
     "img": "http://www.serebii.net/pokemongo/pokemon/018.png",
     "type": [
       "Normal",
@@ -532,7 +532,7 @@
     ],
     "height": "1.50 m",
     "weight": "39.5 kg",
-    "candy": "Pidgey Candy",
+    "candy": "Roucool Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.13,
     "avg_spawns": 13,
@@ -544,10 +544,10 @@
     ],
     "prev_evolution": [{
       "num": "016",
-      "name": "Pidgey"
+      "name": "Roucool"
     }, {
       "num": "017",
-      "name": "Pidgeotto"
+      "name": "Roucoups"
     }]
   }, {
     "id": 19,
@@ -574,12 +574,12 @@
     ],
     "next_evolution": [{
       "num": "020",
-      "name": "Raticate"
+      "name": "Rattatac"
     }]
   }, {
     "id": 20,
     "num": "020",
-    "name": "Raticate",
+    "name": "Rattatac",
     "img": "http://www.serebii.net/pokemongo/pokemon/020.png",
     "type": [
       "Normal"
@@ -602,7 +602,7 @@
   }, {
     "id": 21,
     "num": "021",
-    "name": "Spearow",
+    "name": "Piafabec",
     "img": "http://www.serebii.net/pokemongo/pokemon/021.png",
     "type": [
       "Normal",
@@ -610,7 +610,7 @@
     ],
     "height": "0.30 m",
     "weight": "2.0 kg",
-    "candy": "Spearow Candy",
+    "candy": "Piafabec Candy",
     "candy_count": 50,
     "egg": "2 km",
     "spawn_chance": 4.73,
@@ -626,12 +626,12 @@
     ],
     "next_evolution": [{
       "num": "022",
-      "name": "Fearow"
+      "name": "Rapasdepic"
     }]
   }, {
     "id": 22,
     "num": "022",
-    "name": "Fearow",
+    "name": "Rapasdepic",
     "img": "http://www.serebii.net/pokemongo/pokemon/022.png",
     "type": [
       "Normal",
@@ -639,7 +639,7 @@
     ],
     "height": "1.19 m",
     "weight": "38.0 kg",
-    "candy": "Spearow Candy",
+    "candy": "Piafabec Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.15,
     "avg_spawns": 15,
@@ -651,19 +651,19 @@
     ],
     "prev_evolution": [{
       "num": "021",
-      "name": "Spearow"
+      "name": "Piafabec"
     }]
   }, {
     "id": 23,
     "num": "023",
-    "name": "Ekans",
+    "name": "Abo",
     "img": "http://www.serebii.net/pokemongo/pokemon/023.png",
     "type": [
       "Poison"
     ],
     "height": "2.01 m",
     "weight": "6.9 kg",
-    "candy": "Ekans Candy",
+    "candy": "Abo Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 2.27,
@@ -691,7 +691,7 @@
     ],
     "height": "3.51 m",
     "weight": "65.0 kg",
-    "candy": "Ekans Candy",
+    "candy": "Abo Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.072,
     "avg_spawns": 7.2,
@@ -703,7 +703,7 @@
     ],
     "prev_evolution": [{
       "num": "023",
-      "name": "Ekans"
+      "name": "Abo"
     }]
   }, {
     "id": 25,
@@ -755,14 +755,14 @@
   }, {
     "id": 27,
     "num": "027",
-    "name": "Sandshrew",
+    "name": "Sabelette",
     "img": "http://www.serebii.net/pokemongo/pokemon/027.png",
     "type": [
       "Ground"
     ],
     "height": "0.61 m",
     "weight": "12.0 kg",
-    "candy": "Sandshrew Candy",
+    "candy": "Sabelette Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 1.11,
@@ -776,19 +776,19 @@
     ],
     "next_evolution": [{
       "num": "028",
-      "name": "Sandslash"
+      "name": "Sablaireau"
     }]
   }, {
     "id": 28,
     "num": "028",
-    "name": "Sandslash",
+    "name": "Sablaireau",
     "img": "http://www.serebii.net/pokemongo/pokemon/028.png",
     "type": [
       "Ground"
     ],
     "height": "0.99 m",
     "weight": "29.5 kg",
-    "candy": "Sandshrew Candy",
+    "candy": "Sabelette Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.037,
     "avg_spawns": 3.7,
@@ -801,7 +801,7 @@
     ],
     "prev_evolution": [{
       "num": "027",
-      "name": "Sandshrew"
+      "name": "Sabelette"
     }]
   }, {
     "id": 29,
@@ -989,14 +989,14 @@
   }, {
     "id": 35,
     "num": "035",
-    "name": "Clefairy",
+    "name": "Mélofée",
     "img": "http://www.serebii.net/pokemongo/pokemon/035.png",
     "type": [
       "Normal"
     ],
     "height": "0.61 m",
     "weight": "7.5 kg",
-    "candy": "Clefairy Candy",
+    "candy": "Mélofée Candy",
     "candy_count": 50,
     "egg": "2 km",
     "spawn_chance": 0.92,
@@ -1011,19 +1011,19 @@
     ],
     "next_evolution": [{
       "num": "036",
-      "name": "Clefable"
+      "name": "Mélodelfe"
     }]
   }, {
     "id": 36,
     "num": "036",
-    "name": "Clefable",
+    "name": "Mélodelfe",
     "img": "http://www.serebii.net/pokemongo/pokemon/036.png",
     "type": [
       "Normal"
     ],
     "height": "1.30 m",
     "weight": "40.0 kg",
-    "candy": "Clefairy Candy",
+    "candy": "Mélofée Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.012,
     "avg_spawns": 1.2,
@@ -1034,19 +1034,19 @@
     ],
     "prev_evolution": [{
       "num": "035",
-      "name": "Clefairy"
+      "name": "Mélofée"
     }]
   }, {
     "id": 37,
     "num": "037",
-    "name": "Vulpix",
+    "name": "Goupix",
     "img": "http://www.serebii.net/pokemongo/pokemon/037.png",
     "type": [
       "Fire"
     ],
     "height": "0.61 m",
     "weight": "9.9 kg",
-    "candy": "Vulpix Candy",
+    "candy": "Goupix Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 0.22,
@@ -1063,19 +1063,19 @@
     ],
     "next_evolution": [{
       "num": "038",
-      "name": "Ninetales"
+      "name": "Kyubee"
     }]
   }, {
     "id": 38,
     "num": "038",
-    "name": "Ninetales",
+    "name": "Kyubee",
     "img": "http://www.serebii.net/pokemongo/pokemon/038.png",
     "type": [
       "Fire"
     ],
     "height": "1.09 m",
     "weight": "19.9 kg",
-    "candy": "Vulpix Candy",
+    "candy": "Goupix Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0077,
     "avg_spawns": 0.77,
@@ -1088,19 +1088,19 @@
     ],
     "prev_evolution": [{
       "num": "037",
-      "name": "Vulpix"
+      "name": "Goupix"
     }]
   }, {
     "id": 39,
     "num": "039",
-    "name": "Jigglypuff",
+    "name": "Rondoudou",
     "img": "http://www.serebii.net/pokemongo/pokemon/039.png",
     "type": [
       "Normal"
     ],
     "height": "0.51 m",
     "weight": "5.5 kg",
-    "candy": "Jigglypuff Candy",
+    "candy": "Rondoudou Candy",
     "candy_count": 50,
     "egg": "2 km",
     "spawn_chance": 0.39,
@@ -1112,19 +1112,19 @@
     ],
     "next_evolution": [{
       "num": "040",
-      "name": "Wigglytuff"
+      "name": "Grodoudou"
     }]
   }, {
     "id": 40,
     "num": "040",
-    "name": "Wigglytuff",
+    "name": "Grodoudou",
     "img": "http://www.serebii.net/pokemongo/pokemon/040.png",
     "type": [
       "Normal"
     ],
     "height": "0.99 m",
     "weight": "12.0 kg",
-    "candy": "Jigglypuff Candy",
+    "candy": "Rondoudou Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.018,
     "avg_spawns": 1.8,
@@ -1135,12 +1135,12 @@
     ],
     "prev_evolution": [{
       "num": "039",
-      "name": "Jigglypuff"
+      "name": "Rondoudou"
     }]
   }, {
     "id": 41,
     "num": "041",
-    "name": "Zubat",
+    "name": "Nosferapti",
     "img": "http://www.serebii.net/pokemongo/pokemon/041.png",
     "type": [
       "Poison",
@@ -1148,7 +1148,7 @@
     ],
     "height": "0.79 m",
     "weight": "7.5 kg",
-    "candy": "Zubat Candy",
+    "candy": "Nosferapti Candy",
     "candy_count": 50,
     "egg": "2 km",
     "spawn_chance": 6.52,
@@ -1166,12 +1166,12 @@
     ],
     "next_evolution": [{
       "num": "042",
-      "name": "Golbat"
+      "name": "Nosferalto"
     }]
   }, {
     "id": 42,
     "num": "042",
-    "name": "Golbat",
+    "name": "Nosferalto",
     "img": "http://www.serebii.net/pokemongo/pokemon/042.png",
     "type": [
       "Poison",
@@ -1179,7 +1179,7 @@
     ],
     "height": "1.60 m",
     "weight": "55.0 kg",
-    "candy": "Zubat Candy",
+    "candy": "Nosferapti Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.42,
     "avg_spawns": 42,
@@ -1193,12 +1193,12 @@
     ],
     "prev_evolution": [{
       "num": "041",
-      "name": "Zubat"
+      "name": "Nosferapti"
     }]
   }, {
     "id": 43,
     "num": "043",
-    "name": "Oddish",
+    "name": "Mystherbe",
     "img": "http://www.serebii.net/pokemongo/pokemon/043.png",
     "type": [
       "Grass",
@@ -1206,7 +1206,7 @@
     ],
     "height": "0.51 m",
     "weight": "5.4 kg",
-    "candy": "Oddish Candy",
+    "candy": "Mystherbe Candy",
     "candy_count": 25,
     "egg": "5 km",
     "spawn_chance": 1.02,
@@ -1221,15 +1221,15 @@
     ],
     "next_evolution": [{
       "num": "044",
-      "name": "Gloom"
+      "name": "Ortide"
     }, {
       "num": "045",
-      "name": "Vileplume"
+      "name": "Rafflesia"
     }]
   }, {
     "id": 44,
     "num": "044",
-    "name": "Gloom",
+    "name": "Ortide",
     "img": "http://www.serebii.net/pokemongo/pokemon/044.png",
     "type": [
       "Grass",
@@ -1237,7 +1237,7 @@
     ],
     "height": "0.79 m",
     "weight": "8.6 kg",
-    "candy": "Oddish Candy",
+    "candy": "Mystherbe Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
     "spawn_chance": 0.064,
@@ -1252,16 +1252,16 @@
     ],
     "prev_evolution": [{
       "num": "043",
-      "name": "Oddish"
+      "name": "Mystherbe"
     }],
     "next_evolution": [{
       "num": "045",
-      "name": "Vileplume"
+      "name": "Rafflesia"
     }]
   }, {
     "id": 45,
     "num": "045",
-    "name": "Vileplume",
+    "name": "Rafflesia",
     "img": "http://www.serebii.net/pokemongo/pokemon/045.png",
     "type": [
       "Grass",
@@ -1269,7 +1269,7 @@
     ],
     "height": "1.19 m",
     "weight": "18.6 kg",
-    "candy": "Oddish Candy",
+    "candy": "Mystherbe Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0097,
     "avg_spawns": 0.97,
@@ -1283,10 +1283,10 @@
     ],
     "prev_evolution": [{
       "num": "043",
-      "name": "Oddish"
+      "name": "Mystherbe"
     }, {
       "num": "044",
-      "name": "Gloom"
+      "name": "Ortide"
     }]
   }, {
     "id": 46,
@@ -1350,7 +1350,7 @@
   }, {
     "id": 48,
     "num": "048",
-    "name": "Venonat",
+    "name": "Mimitoss",
     "img": "http://www.serebii.net/pokemongo/pokemon/048.png",
     "type": [
       "Bug",
@@ -1358,7 +1358,7 @@
     ],
     "height": "0.99 m",
     "weight": "30.0 kg",
-    "candy": "Venonat Candy",
+    "candy": "Mimitoss Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 2.28,
@@ -1376,12 +1376,12 @@
     ],
     "next_evolution": [{
       "num": "049",
-      "name": "Venomoth"
+      "name": "Aéromite"
     }]
   }, {
     "id": 49,
     "num": "049",
-    "name": "Venomoth",
+    "name": "Aéromite",
     "img": "http://www.serebii.net/pokemongo/pokemon/049.png",
     "type": [
       "Bug",
@@ -1389,7 +1389,7 @@
     ],
     "height": "1.50 m",
     "weight": "12.5 kg",
-    "candy": "Venonat Candy",
+    "candy": "Mimitoss Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.072,
     "avg_spawns": 7.2,
@@ -1403,19 +1403,19 @@
     ],
     "prev_evolution": [{
       "num": "048",
-      "name": "Venonat"
+      "name": "Mimitoss"
     }]
   }, {
     "id": 50,
     "num": "050",
-    "name": "Diglett",
+    "name": "Taupiqueur",
     "img": "http://www.serebii.net/pokemongo/pokemon/050.png",
     "type": [
       "Ground"
     ],
     "height": "0.20 m",
     "weight": "0.8 kg",
-    "candy": "Diglett Candy",
+    "candy": "Taupiqueur Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 0.40,
@@ -1429,19 +1429,19 @@
     ],
     "next_evolution": [{
       "num": "051",
-      "name": "Dugtrio"
+      "name": "Triopikeur"
     }]
   }, {
     "id": 51,
     "num": "051",
-    "name": "Dugtrio",
+    "name": "Triopikeur",
     "img": "http://www.serebii.net/pokemongo/pokemon/051.png",
     "type": [
       "Ground"
     ],
     "height": "0.71 m",
     "weight": "33.3 kg",
-    "candy": "Dugtrio",
+    "candy": "Triopikeur",
     "egg": "Not in Eggs",
     "spawn_chance": 0.014,
     "avg_spawns": 1.4,
@@ -1454,19 +1454,19 @@
     ],
     "prev_evolution": [{
       "num": "050",
-      "name": "Diglett"
+      "name": "Taupiqueur"
     }]
   }, {
     "id": 52,
     "num": "052",
-    "name": "Meowth",
+    "name": "Miaouss",
     "img": "http://www.serebii.net/pokemongo/pokemon/052.png",
     "type": [
       "Normal"
     ],
     "height": "0.41 m",
     "weight": "4.2 kg",
-    "candy": "Meowth Candy",
+    "candy": "Miaouss Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 0.86,
@@ -1490,7 +1490,7 @@
     ],
     "height": "0.99 m",
     "weight": "32.0 kg",
-    "candy": "Meowth Candy",
+    "candy": "Miaouss Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.022,
     "avg_spawns": 2.2,
@@ -1501,19 +1501,19 @@
     ],
     "prev_evolution": [{
       "num": "052",
-      "name": "Meowth"
+      "name": "Miaouss"
     }]
   }, {
     "id": 54,
     "num": "054",
-    "name": "Psyduck",
+    "name": "Psykokwak",
     "img": "http://www.serebii.net/pokemongo/pokemon/054.png",
     "type": [
       "Water"
     ],
     "height": "0.79 m",
     "weight": "19.6 kg",
-    "candy": "Psyduck Candy",
+    "candy": "Psykokwak Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 2.54,
@@ -1526,19 +1526,19 @@
     ],
     "next_evolution": [{
       "num": "055",
-      "name": "Golduck"
+      "name": "Akwakwak"
     }]
   }, {
     "id": 55,
     "num": "055",
-    "name": "Golduck",
+    "name": "Akwakwak",
     "img": "http://www.serebii.net/pokemongo/pokemon/055.png",
     "type": [
       "Water"
     ],
     "height": "1.70 m",
     "weight": "76.6 kg",
-    "candy": "Psyduck Candy",
+    "candy": "Psykokwak Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.087,
     "avg_spawns": 8.7,
@@ -1550,19 +1550,19 @@
     ],
     "prev_evolution": [{
       "num": "054",
-      "name": "Psyduck"
+      "name": "Psykokwak"
     }]
   }, {
     "id": 56,
     "num": "056",
-    "name": "Mankey",
+    "name": "Férosinge",
     "img": "http://www.serebii.net/pokemongo/pokemon/056.png",
     "type": [
       "Fighting"
     ],
     "height": "0.51 m",
     "weight": "28.0 kg",
-    "candy": "Mankey Candy",
+    "candy": "Férosinge Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 0.92,
@@ -1579,19 +1579,19 @@
     ],
     "next_evolution": [{
       "num": "057",
-      "name": "Primeape"
+      "name": "Colossinge"
     }]
   }, {
     "id": 57,
     "num": "057",
-    "name": "Primeape",
+    "name": "Colossinge",
     "img": "http://www.serebii.net/pokemongo/pokemon/057.png",
     "type": [
       "Fighting"
     ],
     "height": "0.99 m",
     "weight": "32.0 kg",
-    "candy": "Mankey Candy",
+    "candy": "Férosinge Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.031,
     "avg_spawns": 3.1,
@@ -1604,19 +1604,19 @@
     ],
     "prev_evolution": [{
       "num": "056",
-      "name": "Mankey"
+      "name": "Férosinge"
     }]
   }, {
     "id": 58,
     "num": "058",
-    "name": "Growlithe",
+    "name": "Caninos",
     "img": "http://www.serebii.net/pokemongo/pokemon/058.png",
     "type": [
       "Fire"
     ],
     "height": "0.71 m",
     "weight": "19.0 kg",
-    "candy": "Growlithe Candy",
+    "candy": "Caninos Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 0.92,
@@ -1633,19 +1633,19 @@
     ],
     "next_evolution": [{
       "num": "059",
-      "name": "Arcanine"
+      "name": "Arcanin"
     }]
   }, {
     "id": 59,
     "num": "059",
-    "name": "Arcanine",
+    "name": "Arcanin",
     "img": "http://www.serebii.net/pokemongo/pokemon/059.png",
     "type": [
       "Fire"
     ],
     "height": "1.91 m",
     "weight": "155.0 kg",
-    "candy": "Growlithe Candy",
+    "candy": "Caninos Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.017,
     "avg_spawns": 1.7,
@@ -1658,19 +1658,19 @@
     ],
     "prev_evolution": [{
       "num": "058",
-      "name": "Growlithe"
+      "name": "Caninos"
     }]
   }, {
     "id": 60,
     "num": "060",
-    "name": "Poliwag",
+    "name": "Ptitard",
     "img": "http://www.serebii.net/pokemongo/pokemon/060.png",
     "type": [
       "Water"
     ],
     "height": "0.61 m",
     "weight": "12.4 kg",
-    "candy": "Poliwag Candy",
+    "candy": "Ptitard Candy",
     "candy_count": 25,
     "egg": "5 km",
     "spawn_chance": 2.19,
@@ -1686,22 +1686,22 @@
     ],
     "next_evolution": [{
       "num": "061",
-      "name": "Poliwhirl"
+      "name": "Têtarte"
     }, {
       "num": "062",
-      "name": "Poliwrath"
+      "name": "Tartard"
     }]
   }, {
     "id": 61,
     "num": "061",
-    "name": "Poliwhirl",
+    "name": "Têtarte",
     "img": "http://www.serebii.net/pokemongo/pokemon/061.png",
     "type": [
       "Water"
     ],
     "height": "0.99 m",
     "weight": "20.0 kg",
-    "candy": "Poliwag Candy",
+    "candy": "Ptitard Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
     "spawn_chance": 0.13,
@@ -1714,16 +1714,16 @@
     ],
     "prev_evolution": [{
       "num": "060",
-      "name": "Poliwag"
+      "name": "Ptitard"
     }],
     "next_evolution": [{
       "num": "062",
-      "name": "Poliwrath"
+      "name": "Tartard"
     }]
   }, {
     "id": 62,
     "num": "062",
-    "name": "Poliwrath",
+    "name": "Tartard",
     "img": "http://www.serebii.net/pokemongo/pokemon/062.png",
     "type": [
       "Water",
@@ -1731,7 +1731,7 @@
     ],
     "height": "1.30 m",
     "weight": "54.0 kg",
-    "candy": "Poliwag Candy",
+    "candy": "Ptitard Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.011,
     "avg_spawns": 1.1,
@@ -1746,10 +1746,10 @@
     ],
     "prev_evolution": [{
       "num": "060",
-      "name": "Poliwag"
+      "name": "Ptitard"
     }, {
       "num": "061",
-      "name": "Poliwhirl"
+      "name": "Têtarte"
     }]
   }, {
     "id": 63,
@@ -1844,14 +1844,14 @@
   }, {
     "id": 66,
     "num": "066",
-    "name": "Machop",
+    "name": "Machoc",
     "img": "http://www.serebii.net/pokemongo/pokemon/066.png",
     "type": [
       "Fighting"
     ],
     "height": "0.79 m",
     "weight": "19.5 kg",
-    "candy": "Machop Candy",
+    "candy": "Machoc Candy",
     "candy_count": 25,
     "egg": "5 km",
     "spawn_chance": 0.49,
@@ -1868,22 +1868,22 @@
     ],
     "next_evolution": [{
       "num": "067",
-      "name": "Machoke"
+      "name": "Machopeur"
     }, {
       "num": "068",
-      "name": "Machamp"
+      "name": "Mackogneur"
     }]
   }, {
     "id": 67,
     "num": "067",
-    "name": "Machoke",
+    "name": "Machopeur",
     "img": "http://www.serebii.net/pokemongo/pokemon/067.png",
     "type": [
       "Fighting"
     ],
     "height": "1.50 m",
     "weight": "70.5 kg",
-    "candy": "Machop Candy",
+    "candy": "Machoc Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
     "spawn_chance": 0.034,
@@ -1897,23 +1897,23 @@
     ],
     "prev_evolution": [{
       "num": "066",
-      "name": "Machop"
+      "name": "Machoc"
     }],
     "next_evolution": [{
       "num": "068",
-      "name": "Machamp"
+      "name": "Mackogneur"
     }]
   }, {
     "id": 68,
     "num": "068",
-    "name": "Machamp",
+    "name": "Mackogneur",
     "img": "http://www.serebii.net/pokemongo/pokemon/068.png",
     "type": [
       "Fighting"
     ],
     "height": "1.60 m",
     "weight": "130.0 kg",
-    "candy": "Machop Candy",
+    "candy": "Machoc Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0068,
     "avg_spawns": 0.68,
@@ -1926,15 +1926,15 @@
     ],
     "prev_evolution": [{
       "num": "066",
-      "name": "Machop"
+      "name": "Machoc"
     }, {
       "num": "067",
-      "name": "Machoke"
+      "name": "Machopeur"
     }]
   }, {
     "id": 69,
     "num": "069",
-    "name": "Bellsprout",
+    "name": "Chétiflor",
     "img": "http://www.serebii.net/pokemongo/pokemon/069.png",
     "type": [
       "Grass",
@@ -1942,7 +1942,7 @@
     ],
     "height": "0.71 m",
     "weight": "4.0 kg",
-    "candy": "Bellsprout Candy",
+    "candy": "Chétiflor Candy",
     "candy_count": 25,
     "egg": "5 km",
     "spawn_chance": 1.15,
@@ -1957,15 +1957,15 @@
     ],
     "next_evolution": [{
       "num": "070",
-      "name": "Weepinbell"
+      "name": "Boustiflor"
     }, {
       "num": "071",
-      "name": "Victreebel"
+      "name": "Empiflor"
     }]
   }, {
     "id": 70,
     "num": "070",
-    "name": "Weepinbell",
+    "name": "Boustiflor",
     "img": "http://www.serebii.net/pokemongo/pokemon/070.png",
     "type": [
       "Grass",
@@ -1973,7 +1973,7 @@
     ],
     "height": "0.99 m",
     "weight": "6.4 kg",
-    "candy": "Bellsprout Candy",
+    "candy": "Chétiflor Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
     "spawn_chance": 0.072,
@@ -1988,16 +1988,16 @@
     ],
     "prev_evolution": [{
       "num": "069",
-      "name": "Bellsprout"
+      "name": "Chétiflor"
     }],
     "next_evolution": [{
       "num": "071",
-      "name": "Victreebel"
+      "name": "Empiflor"
     }]
   }, {
     "id": 71,
     "num": "071",
-    "name": "Victreebel",
+    "name": "Empiflor",
     "img": "http://www.serebii.net/pokemongo/pokemon/071.png",
     "type": [
       "Grass",
@@ -2005,7 +2005,7 @@
     ],
     "height": "1.70 m",
     "weight": "15.5 kg",
-    "candy": "Bellsprout Candy",
+    "candy": "Chétiflor Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0059,
     "avg_spawns": 0.59,
@@ -2019,10 +2019,10 @@
     ],
     "prev_evolution": [{
       "num": "069",
-      "name": "Bellsprout"
+      "name": "Chétiflor"
     }, {
       "num": "070",
-      "name": "Weepinbell"
+      "name": "Boustiflor"
     }]
   }, {
     "id": 72,
@@ -2080,7 +2080,7 @@
   }, {
     "id": 74,
     "num": "074",
-    "name": "Geodude",
+    "name": "Racaillou",
     "img": "http://www.serebii.net/pokemongo/pokemon/074.png",
     "type": [
       "Rock",
@@ -2088,7 +2088,7 @@
     ],
     "height": "0.41 m",
     "weight": "20.0 kg",
-    "candy": "Geodude Candy",
+    "candy": "Racaillou Candy",
     "candy_count": 25,
     "egg": "2 km",
     "spawn_chance": 1.19,
@@ -2108,15 +2108,15 @@
     ],
     "next_evolution": [{
       "num": "075",
-      "name": "Graveler"
+      "name": "Gravalanch"
     }, {
       "num": "076",
-      "name": "Golem"
+      "name": "Grolem"
     }]
   }, {
     "id": 75,
     "num": "075",
-    "name": "Graveler",
+    "name": "Gravalanch",
     "img": "http://www.serebii.net/pokemongo/pokemon/075.png",
     "type": [
       "Rock",
@@ -2124,7 +2124,7 @@
     ],
     "height": "0.99 m",
     "weight": "105.0 kg",
-    "candy": "Geodude Candy",
+    "candy": "Racaillou Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
     "spawn_chance": 0.071,
@@ -2144,16 +2144,16 @@
     ],
     "prev_evolution": [{
       "num": "074",
-      "name": "Geodude"
+      "name": "Racaillou"
     }],
     "next_evolution": [{
       "num": "076",
-      "name": "Golem"
+      "name": "Grolem"
     }]
   }, {
     "id": 76,
     "num": "076",
-    "name": "Golem",
+    "name": "Grolem",
     "img": "http://www.serebii.net/pokemongo/pokemon/076.png",
     "type": [
       "Rock",
@@ -2161,7 +2161,7 @@
     ],
     "height": "1.40 m",
     "weight": "300.0 kg",
-    "candy": "Geodude Candy",
+    "candy": "Racaillou Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0047,
     "avg_spawns": 0.47,
@@ -2177,10 +2177,10 @@
     ],
     "prev_evolution": [{
       "num": "074",
-      "name": "Geodude"
+      "name": "Racaillou"
     }, {
       "num": "075",
-      "name": "Graveler"
+      "name": "Gravalanch"
     }]
   }, {
     "id": 77,
@@ -2209,12 +2209,12 @@
     ],
     "next_evolution": [{
       "num": "078",
-      "name": "Rapidash"
+      "name": "Galopa"
     }]
   }, {
     "id": 78,
     "num": "078",
-    "name": "Rapidash",
+    "name": "Galopa",
     "img": "http://www.serebii.net/pokemongo/pokemon/078.png",
     "type": [
       "Fire"
@@ -2239,7 +2239,7 @@
   }, {
     "id": 79,
     "num": "079",
-    "name": "Slowpoke",
+    "name": "Ramoloss",
     "img": "http://www.serebii.net/pokemongo/pokemon/079.png",
     "type": [
       "Water",
@@ -2247,7 +2247,7 @@
     ],
     "height": "1.19 m",
     "weight": "36.0 kg",
-    "candy": "Slowpoke Candy",
+    "candy": "Ramoloss Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 1.05,
@@ -2263,12 +2263,12 @@
     ],
     "next_evolution": [{
       "num": "080",
-      "name": "Slowbro"
+      "name": "Flagadoss"
     }]
   }, {
     "id": 80,
     "num": "080",
-    "name": "Slowbro",
+    "name": "Flagadoss",
     "img": "http://www.serebii.net/pokemongo/pokemon/080.png",
     "type": [
       "Water",
@@ -2276,7 +2276,7 @@
     ],
     "height": "1.60 m",
     "weight": "78.5 kg",
-    "candy": "Slowpoke Candy",
+    "candy": "Ramoloss Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.036,
     "avg_spawns": 3.6,
@@ -2291,19 +2291,19 @@
     ],
     "prev_evolution": [{
       "num": "079",
-      "name": "Slowpoke"
+      "name": "Ramoloss"
     }]
   }, {
     "id": 81,
     "num": "081",
-    "name": "Magnemite",
+    "name": "Magnéti",
     "img": "http://www.serebii.net/pokemongo/pokemon/081.png",
     "type": [
       "Electric"
     ],
     "height": "0.30 m",
     "weight": "6.0 kg",
-    "candy": "Magnemite Candy",
+    "candy": "Magnéti Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 0.71,
@@ -2332,7 +2332,7 @@
     ],
     "height": "0.99 m",
     "weight": "60.0 kg",
-    "candy": "Magnemite Candy",
+    "candy": "Magnéti Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.023,
     "avg_spawns": 2.3,
@@ -2345,12 +2345,12 @@
     ],
     "prev_evolution": [{
       "num": "081",
-      "name": "Magnemite"
+      "name": "Magnéti"
     }]
   }, {
     "id": 83,
     "num": "083",
-    "name": "Farfetch'd",
+    "name": "Canarticho",
     "img": "http://www.serebii.net/pokemongo/pokemon/083.png",
     "type": [
       "Normal",
@@ -2425,14 +2425,14 @@
   }, {
     "id": 86,
     "num": "086",
-    "name": "Seel",
+    "name": "Otaria",
     "img": "http://www.serebii.net/pokemongo/pokemon/086.png",
     "type": [
       "Water"
     ],
     "height": "1.09 m",
     "weight": "90.0 kg",
-    "candy": "Seel Candy",
+    "candy": "Otaria Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 0.28,
@@ -2448,12 +2448,12 @@
     ],
     "next_evolution": [{
       "num": "087",
-      "name": "Dewgong"
+      "name": "Lamantine"
     }]
   }, {
     "id": 87,
     "num": "087",
-    "name": "Dewgong",
+    "name": "Lamantine",
     "img": "http://www.serebii.net/pokemongo/pokemon/087.png",
     "type": [
       "Water",
@@ -2461,7 +2461,7 @@
     ],
     "height": "1.70 m",
     "weight": "120.0 kg",
-    "candy": "Seel Candy",
+    "candy": "Otaria Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.013,
     "avg_spawns": 1.3,
@@ -2475,19 +2475,19 @@
     ],
     "prev_evolution": [{
       "num": "086",
-      "name": "Seel"
+      "name": "Otaria"
     }]
   }, {
     "id": 88,
     "num": "088",
-    "name": "Grimer",
+    "name": "Tadmorv",
     "img": "http://www.serebii.net/pokemongo/pokemon/088.png",
     "type": [
       "Poison"
     ],
     "height": "0.89 m",
     "weight": "30.0 kg",
-    "candy": "Grimer Candy",
+    "candy": "Tadmorv Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 0.052,
@@ -2500,19 +2500,19 @@
     ],
     "next_evolution": [{
       "num": "089",
-      "name": "Muk"
+      "name": "Grotadmorv"
     }]
   }, {
     "id": 89,
     "num": "089",
-    "name": "Muk",
+    "name": "Grotadmorv",
     "img": "http://www.serebii.net/pokemongo/pokemon/089.png",
     "type": [
       "Poison"
     ],
     "height": "1.19 m",
     "weight": "30.0 kg",
-    "candy": "Grimer Candy",
+    "candy": "Tadmorv Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0031,
     "avg_spawns": 0.31,
@@ -2524,19 +2524,19 @@
     ],
     "prev_evolution": [{
       "num": "088",
-      "name": "Grimer"
+      "name": "Tadmorv"
     }]
   }, {
     "id": 90,
     "num": "090",
-    "name": "Shellder",
+    "name": "Kokiyas",
     "img": "http://www.serebii.net/pokemongo/pokemon/090.png",
     "type": [
       "Water"
     ],
     "height": "0.30 m",
     "weight": "4.0 kg",
-    "candy": "Shellder Candy",
+    "candy": "Kokiyas Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 0.52,
@@ -2549,12 +2549,12 @@
     ],
     "next_evolution": [{
       "num": "091",
-      "name": "Cloyster"
+      "name": "Crustabri"
     }]
   }, {
     "id": 91,
     "num": "091",
-    "name": "Cloyster",
+    "name": "Crustabri",
     "img": "http://www.serebii.net/pokemongo/pokemon/091.png",
     "type": [
       "Water",
@@ -2562,7 +2562,7 @@
     ],
     "height": "1.50 m",
     "weight": "132.5 kg",
-    "candy": "Shellder Candy",
+    "candy": "Kokiyas Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.015,
     "avg_spawns": 1.5,
@@ -2576,12 +2576,12 @@
     ],
     "prev_evolution": [{
       "num": "090",
-      "name": "Shellder"
+      "name": "Kokiyas"
     }]
   }, {
     "id": 92,
     "num": "092",
-    "name": "Gastly",
+    "name": "Fantominus",
     "img": "http://www.serebii.net/pokemongo/pokemon/092.png",
     "type": [
       "Ghost",
@@ -2589,7 +2589,7 @@
     ],
     "height": "1.30 m",
     "weight": "0.1 kg",
-    "candy": "Gastly Candy",
+    "candy": "Fantominus Candy",
     "candy_count": 25,
     "egg": "5 km",
     "spawn_chance": 0.79,
@@ -2604,15 +2604,15 @@
     ],
     "next_evolution": [{
       "num": "093",
-      "name": "Haunter"
+      "name": "Spectrum"
     }, {
       "num": "094",
-      "name": "Gengar"
+      "name": "Ectoplasma"
     }]
   }, {
     "id": 93,
     "num": "093",
-    "name": "Haunter",
+    "name": "Spectrum",
     "img": "http://www.serebii.net/pokemongo/pokemon/093.png",
     "type": [
       "Ghost",
@@ -2620,7 +2620,7 @@
     ],
     "height": "1.60 m",
     "weight": "0.1 kg",
-    "candy": "Gastly Candy",
+    "candy": "Fantominus Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
     "spawn_chance": 0.052,
@@ -2638,16 +2638,16 @@
     ],
     "prev_evolution": [{
       "num": "092",
-      "name": "Gastly"
+      "name": "Fantominus"
     }],
     "next_evolution": [{
       "num": "094",
-      "name": "Gengar"
+      "name": "Ectoplasma"
     }]
   }, {
     "id": 94,
     "num": "094",
-    "name": "Gengar",
+    "name": "Ectoplasma",
     "img": "http://www.serebii.net/pokemongo/pokemon/094.png",
     "type": [
       "Ghost",
@@ -2655,7 +2655,7 @@
     ],
     "height": "1.50 m",
     "weight": "40.5 kg",
-    "candy": "Gastly Candy",
+    "candy": "Fantominus Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0067,
     "avg_spawns": 0.67,
@@ -2669,10 +2669,10 @@
     ],
     "prev_evolution": [{
       "num": "092",
-      "name": "Gastly"
+      "name": "Fantominus"
     }, {
       "num": "093",
-      "name": "Haunter"
+      "name": "Spectrum"
     }]
   }, {
     "id": 95,
@@ -2702,14 +2702,14 @@
   }, {
     "id": 96,
     "num": "096",
-    "name": "Drowzee",
+    "name": "Soporifik",
     "img": "http://www.serebii.net/pokemongo/pokemon/096.png",
     "type": [
       "Psychic"
     ],
     "height": "0.99 m",
     "weight": "32.4 kg",
-    "candy": "Drowzee Candy",
+    "candy": "Soporifik Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 3.21,
@@ -2726,19 +2726,19 @@
     ],
     "next_evolution": [{
       "num": "097",
-      "name": "Hypno"
+      "name": "Hypnomade"
     }]
   }, {
     "id": 97,
     "num": "097",
-    "name": "Hypno",
+    "name": "Hypnomade",
     "img": "http://www.serebii.net/pokemongo/pokemon/097.png",
     "type": [
       "Psychic"
     ],
     "height": "1.60 m",
     "weight": "75.6 kg",
-    "candy": "Drowzee Candy",
+    "candy": "Soporifik Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.10,
     "avg_spawns": 10,
@@ -2751,7 +2751,7 @@
     ],
     "prev_evolution": [{
       "num": "096",
-      "name": "Drowzee"
+      "name": "Soporifik"
     }]
   }, {
     "id": 98,
@@ -2779,12 +2779,12 @@
     ],
     "next_evolution": [{
       "num": "099",
-      "name": "Kingler"
+      "name": "Krabboss"
     }]
   }, {
     "id": 99,
     "num": "099",
-    "name": "Kingler",
+    "name": "Krabboss",
     "img": "http://www.serebii.net/pokemongo/pokemon/099.png",
     "type": [
       "Water"
@@ -2808,14 +2808,14 @@
   }, {
     "id": 100,
     "num": "100",
-    "name": "Voltorb",
+    "name": "Voltorbe",
     "img": "http://www.serebii.net/pokemongo/pokemon/100.png",
     "type": [
       "Electric"
     ],
     "height": "0.51 m",
     "weight": "10.4 kg",
-    "candy": "Voltorb Candy",
+    "candy": "Voltorbe Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 0.65,
@@ -2842,7 +2842,7 @@
     ],
     "height": "1.19 m",
     "weight": "66.6 kg",
-    "candy": "Voltorb Candy",
+    "candy": "Voltorbe Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.02,
     "avg_spawns": 2,
@@ -2853,12 +2853,12 @@
     ],
     "prev_evolution": [{
       "num": "100",
-      "name": "Voltorb"
+      "name": "Voltorbe"
     }]
   }, {
     "id": 102,
     "num": "102",
-    "name": "Exeggcute",
+    "name": "Noeunoeuf",
     "img": "http://www.serebii.net/pokemongo/pokemon/102.png",
     "type": [
       "Grass",
@@ -2866,7 +2866,7 @@
     ],
     "height": "0.41 m",
     "weight": "2.5 kg",
-    "candy": "Exeggcute Candy",
+    "candy": "Noeunoeuf Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 0.78,
@@ -2887,12 +2887,12 @@
     ],
     "next_evolution": [{
       "num": "103",
-      "name": "Exeggutor"
+      "name": "Noadkoko"
     }]
   }, {
     "id": 103,
     "num": "103",
-    "name": "Exeggutor",
+    "name": "Noadkoko",
     "img": "http://www.serebii.net/pokemongo/pokemon/103.png",
     "type": [
       "Grass",
@@ -2900,7 +2900,7 @@
     ],
     "height": "2.01 m",
     "weight": "120.0 kg",
-    "candy": "Exeggcute Candy",
+    "candy": "Noeunoeuf Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.014,
     "avg_spawns": 1.4,
@@ -2917,19 +2917,19 @@
     ],
     "prev_evolution": [{
       "num": "102",
-      "name": "Exeggcute"
+      "name": "Noeunoeuf"
     }]
   }, {
     "id": 104,
     "num": "104",
-    "name": "Cubone",
+    "name": "Osselait",
     "img": "http://www.serebii.net/pokemongo/pokemon/104.png",
     "type": [
       "Ground"
     ],
     "height": "0.41 m",
     "weight": "6.5 kg",
-    "candy": "Cubone Candy",
+    "candy": "Osselait Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 0.61,
@@ -2943,19 +2943,19 @@
     ],
     "next_evolution": [{
       "num": "105",
-      "name": "Marowak"
+      "name": "Ossatueur"
     }]
   }, {
     "id": 105,
     "num": "105",
-    "name": "Marowak",
+    "name": "Ossatueur",
     "img": "http://www.serebii.net/pokemongo/pokemon/105.png",
     "type": [
       "Ground"
     ],
     "height": "0.99 m",
     "weight": "45.0 kg",
-    "candy": "Cubone Candy",
+    "candy": "Osselait Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.02,
     "avg_spawns": 2,
@@ -2968,12 +2968,12 @@
     ],
     "prev_evolution": [{
       "num": "104",
-      "name": "Cubone"
+      "name": "Osselait"
     }]
   }, {
     "id": 106,
     "num": "106",
-    "name": "Hitmonlee",
+    "name": "Kicklee",
     "img": "http://www.serebii.net/pokemongo/pokemon/106.png",
     "type": [
       "Fighting"
@@ -2994,7 +2994,7 @@
   }, {
     "id": 107,
     "num": "107",
-    "name": "Hitmonchan",
+    "name": "Tygnon",
     "img": "http://www.serebii.net/pokemongo/pokemon/107.png",
     "type": [
       "Fighting"
@@ -3015,7 +3015,7 @@
   }, {
     "id": 108,
     "num": "108",
-    "name": "Lickitung",
+    "name": "Excelangue",
     "img": "http://www.serebii.net/pokemongo/pokemon/108.png",
     "type": [
       "Normal"
@@ -3034,14 +3034,14 @@
   }, {
     "id": 109,
     "num": "109",
-    "name": "Koffing",
+    "name": "Smogo",
     "img": "http://www.serebii.net/pokemongo/pokemon/109.png",
     "type": [
       "Poison"
     ],
     "height": "0.61 m",
     "weight": "1.0 kg",
-    "candy": "Koffing Candy",
+    "candy": "Smogo Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 0.20,
@@ -3054,19 +3054,19 @@
     ],
     "next_evolution": [{
       "num": "110",
-      "name": "Weezing"
+      "name": "Smogogo"
     }]
   }, {
     "id": 110,
     "num": "110",
-    "name": "Weezing",
+    "name": "Smogogo",
     "img": "http://www.serebii.net/pokemongo/pokemon/110.png",
     "type": [
       "Poison"
     ],
     "height": "1.19 m",
     "weight": "9.5 kg",
-    "candy": "Koffing Candy",
+    "candy": "Smogo Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.016,
     "avg_spawns": 1.6,
@@ -3078,12 +3078,12 @@
     ],
     "prev_evolution": [{
       "num": "109",
-      "name": "Koffing"
+      "name": "Smogo"
     }]
   }, {
     "id": 111,
     "num": "111",
-    "name": "Rhyhorn",
+    "name": "Rhinocorne",
     "img": "http://www.serebii.net/pokemongo/pokemon/111.png",
     "type": [
       "Ground",
@@ -3091,7 +3091,7 @@
     ],
     "height": "0.99 m",
     "weight": "115.0 kg",
-    "candy": "Rhyhorn Candy",
+    "candy": "Rhinocorne Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 0.63,
@@ -3108,12 +3108,12 @@
     ],
     "next_evolution": [{
       "num": "112",
-      "name": "Rhydon"
+      "name": "Rhinoféros"
     }]
   }, {
     "id": 112,
     "num": "112",
-    "name": "Rhydon",
+    "name": "Rhinoféros",
     "img": "http://www.serebii.net/pokemongo/pokemon/112.png",
     "type": [
       "Ground",
@@ -3121,7 +3121,7 @@
     ],
     "height": "1.91 m",
     "weight": "120.0 kg",
-    "candy": "Rhyhorn Candy",
+    "candy": "Rhinocorne Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.022,
     "avg_spawns": 2.2,
@@ -3137,12 +3137,12 @@
     ],
     "prev_evolution": [{
       "num": "111",
-      "name": "Rhyhorn"
+      "name": "Rhinocorne"
     }]
   }, {
     "id": 113,
     "num": "113",
-    "name": "Chansey",
+    "name": "Leveinard",
     "img": "http://www.serebii.net/pokemongo/pokemon/113.png",
     "type": [
       "Normal"
@@ -3161,7 +3161,7 @@
   }, {
     "id": 114,
     "num": "114",
-    "name": "Tangela",
+    "name": "Saquedeneu",
     "img": "http://www.serebii.net/pokemongo/pokemon/114.png",
     "type": [
       "Grass"
@@ -3184,7 +3184,7 @@
   }, {
     "id": 115,
     "num": "115",
-    "name": "Kangaskhan",
+    "name": "Kangourex",
     "img": "http://www.serebii.net/pokemongo/pokemon/115.png",
     "type": [
       "Normal"
@@ -3203,14 +3203,14 @@
   }, {
     "id": 116,
     "num": "116",
-    "name": "Horsea",
+    "name": "Hypotrempe",
     "img": "http://www.serebii.net/pokemongo/pokemon/116.png",
     "type": [
       "Water"
     ],
     "height": "0.41 m",
     "weight": "8.0 kg",
-    "candy": "Horsea Candy",
+    "candy": "Hypotrempe Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 1.13,
@@ -3223,19 +3223,19 @@
     ],
     "next_evolution": [{
       "num": "117",
-      "name": "Seadra"
+      "name": "Hypocéan"
     }]
   }, {
     "id": 117,
     "num": "117",
-    "name": "Seadra",
+    "name": "Hypocéan",
     "img": "http://www.serebii.net/pokemongo/pokemon/117.png",
     "type": [
       "Water"
     ],
     "height": "1.19 m",
     "weight": "25.0 kg",
-    "candy": "Horsea Candy",
+    "candy": "Hypotrempe Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.034,
     "avg_spawns": 3.4,
@@ -3247,19 +3247,19 @@
     ],
     "prev_evolution": [{
       "num": "116",
-      "name": "Horsea"
+      "name": "Hypotrempe"
     }]
   }, {
     "id": 118,
     "num": "118",
-    "name": "Goldeen",
+    "name": "Poissirène",
     "img": "http://www.serebii.net/pokemongo/pokemon/118.png",
     "type": [
       "Water"
     ],
     "height": "0.61 m",
     "weight": "15.0 kg",
-    "candy": "Goldeen Candy",
+    "candy": "Poissirène Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 2.18,
@@ -3275,19 +3275,19 @@
     ],
     "next_evolution": [{
       "num": "119",
-      "name": "Seaking"
+      "name": "Poissoroy"
     }]
   }, {
     "id": 119,
     "num": "119",
-    "name": "Seaking",
+    "name": "Poissoroy",
     "img": "http://www.serebii.net/pokemongo/pokemon/119.png",
     "type": [
       "Water"
     ],
     "height": "1.30 m",
     "weight": "39.0 kg",
-    "candy": "Goldeen Candy",
+    "candy": "Poissirène Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.08,
     "avg_spawns": 8,
@@ -3299,19 +3299,19 @@
     ],
     "prev_evolution": [{
       "num": "118",
-      "name": "Goldeen"
+      "name": "Poissirène"
     }]
   }, {
     "id": 120,
     "num": "120",
-    "name": "Staryu",
+    "name": "Stari",
     "img": "http://www.serebii.net/pokemongo/pokemon/120.png",
     "type": [
       "Water"
     ],
     "height": "0.79 m",
     "weight": "34.5 kg",
-    "candy": "Staryu Candy",
+    "candy": "Stari Candy",
     "candy_count": 50,
     "egg": "5 km",
     "spawn_chance": 1.95,
@@ -3327,12 +3327,12 @@
     ],
     "next_evolution": [{
       "num": "121",
-      "name": "Starmie"
+      "name": "Staross"
     }]
   }, {
     "id": 121,
     "num": "121",
-    "name": "Starmie",
+    "name": "Staross",
     "img": "http://www.serebii.net/pokemongo/pokemon/121.png",
     "type": [
       "Water",
@@ -3340,7 +3340,7 @@
     ],
     "height": "1.09 m",
     "weight": "80.0 kg",
-    "candy": "Staryu Candy",
+    "candy": "Stari Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.034,
     "avg_spawns": 3.4,
@@ -3355,7 +3355,7 @@
     ],
     "prev_evolution": [{
       "num": "120",
-      "name": "Staryu"
+      "name": "Stari"
     }]
   }, {
     "id": 122,
@@ -3381,7 +3381,7 @@
   }, {
     "id": 123,
     "num": "123",
-    "name": "Scyther",
+    "name": "Insécateur",
     "img": "http://www.serebii.net/pokemongo/pokemon/123.png",
     "type": [
       "Bug",
@@ -3405,7 +3405,7 @@
   }, {
     "id": 124,
     "num": "124",
-    "name": "Jynx",
+    "name": "Lippoutou",
     "img": "http://www.serebii.net/pokemongo/pokemon/124.png",
     "type": [
       "Ice",
@@ -3430,7 +3430,7 @@
   }, {
     "id": 125,
     "num": "125",
-    "name": "Electabuzz",
+    "name": "Elektek",
     "img": "http://www.serebii.net/pokemongo/pokemon/125.png",
     "type": [
       "Electric"
@@ -3470,7 +3470,7 @@
   }, {
     "id": 127,
     "num": "127",
-    "name": "Pinsir",
+    "name": "Scarabrute",
     "img": "http://www.serebii.net/pokemongo/pokemon/127.png",
     "type": [
       "Bug"
@@ -3510,14 +3510,14 @@
   }, {
     "id": 129,
     "num": "129",
-    "name": "Magikarp",
+    "name": "Magicarpe",
     "img": "http://www.serebii.net/pokemongo/pokemon/129.png",
     "type": [
       "Water"
     ],
     "height": "0.89 m",
     "weight": "10.0 kg",
-    "candy": "Magikarp Candy",
+    "candy": "Magicarpe Candy",
     "candy_count": 400,
     "egg": "2 km",
     "spawn_chance": 4.78,
@@ -3533,12 +3533,12 @@
     ],
     "next_evolution": [{
       "num": "130",
-      "name": "Gyarados"
+      "name": "Léviator"
     }]
   }, {
     "id": 130,
     "num": "130",
-    "name": "Gyarados",
+    "name": "Léviator",
     "img": "http://www.serebii.net/pokemongo/pokemon/130.png",
     "type": [
       "Water",
@@ -3546,7 +3546,7 @@
     ],
     "height": "6.50 m",
     "weight": "235.0 kg",
-    "candy": "Magikarp Candy",
+    "candy": "Magicarpe Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0032,
     "avg_spawns": 0.32,
@@ -3558,12 +3558,12 @@
     ],
     "prev_evolution": [{
       "num": "129",
-      "name": "Magikarp"
+      "name": "Magicarpe"
     }]
   }, {
     "id": 131,
     "num": "131",
-    "name": "Lapras",
+    "name": "Lokhlass",
     "img": "http://www.serebii.net/pokemongo/pokemon/131.png",
     "type": [
       "Water",
@@ -3586,7 +3586,7 @@
   }, {
     "id": 132,
     "num": "132",
-    "name": "Ditto",
+    "name": "Métamorph",
     "img": "http://www.serebii.net/pokemongo/pokemon/132.png",
     "type": [
       "Normal"
@@ -3605,14 +3605,14 @@
   }, {
     "id": 133,
     "num": "133",
-    "name": "Eevee",
+    "name": "Evoli",
     "img": "http://www.serebii.net/pokemongo/pokemon/133.png",
     "type": [
       "Normal"
     ],
     "height": "0.30 m",
     "weight": "6.5 kg",
-    "candy": "Eevee Candy",
+    "candy": "Evoli Candy",
     "candy_count": 25,
     "egg": "10 km",
     "spawn_chance": 2.75,
@@ -3627,25 +3627,25 @@
     ],
     "next_evolution": [{
       "num": "134",
-      "name": "Vaporeon"
+      "name": "Aquali"
     }, {
       "num": "135",
-      "name": "Jolteon"
+      "name": "Voltali"
     }, {
       "num": "136",
-      "name": "Flareon"
+      "name": "Pyroli"
     }]
   }, {
     "id": 134,
     "num": "134",
-    "name": "Vaporeon",
+    "name": "Aquali",
     "img": "http://www.serebii.net/pokemongo/pokemon/134.png",
     "type": [
       "Water"
     ],
     "height": "0.99 m",
     "weight": "29.0 kg",
-    "candy": "Eevee Candy",
+    "candy": "Evoli Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.014,
     "avg_spawns": 1.4,
@@ -3657,12 +3657,12 @@
     ],
     "prev_evolution": [{
       "num": "133",
-      "name": "Eevee"
+      "name": "Evoli"
     }]
   }, {
     "id": 135,
     "num": "135",
-    "name": "Jolteon",
+    "name": "Voltali",
     "img": "http://www.serebii.net/pokemongo/pokemon/135.png",
     "type": [
       "Electric"
@@ -3680,19 +3680,19 @@
     ],
     "prev_evolution": [{
       "num": "133",
-      "name": "Eevee"
+      "name": "Evoli"
     }]
   }, {
     "id": 136,
     "num": "136",
-    "name": "Flareon",
+    "name": "Pyroli",
     "img": "http://www.serebii.net/pokemongo/pokemon/136.png",
     "type": [
       "Fire"
     ],
     "height": "0.89 m",
     "weight": "25.0 kg",
-    "candy": "Eevee Candy",
+    "candy": "Evoli Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.017,
     "avg_spawns": 1.7,
@@ -3705,7 +3705,7 @@
     ],
     "prev_evolution": [{
       "num": "133",
-      "name": "Eevee"
+      "name": "Evoli"
     }]
   }, {
     "id": 137,
@@ -3729,7 +3729,7 @@
   }, {
     "id": 138,
     "num": "138",
-    "name": "Omanyte",
+    "name": "Amonita",
     "img": "http://www.serebii.net/pokemongo/pokemon/138.png",
     "type": [
       "Rock",
@@ -3737,7 +3737,7 @@
     ],
     "height": "0.41 m",
     "weight": "7.5 kg",
-    "candy": "Omanyte Candy",
+    "candy": "Amonita Candy",
     "candy_count": 50,
     "egg": "10 km",
     "spawn_chance": 0.14,
@@ -3752,12 +3752,12 @@
     ],
     "next_evolution": [{
       "num": "139",
-      "name": "Omastar"
+      "name": "Amonistar"
     }]
   }, {
     "id": 139,
     "num": "139",
-    "name": "Omastar",
+    "name": "Amonistar",
     "img": "http://www.serebii.net/pokemongo/pokemon/139.png",
     "type": [
       "Rock",
@@ -3766,7 +3766,7 @@
     "height": "0.99 m",
     "weight": "35.0 kg",
     "candy": "None",
-    "egg": "Omanyte Candy",
+    "egg": "Amonita Candy",
     "spawn_chance": 0.0061,
     "avg_spawns": 0.61,
     "spawn_time": "05:04",
@@ -3779,7 +3779,7 @@
     ],
     "prev_evolution": [{
       "num": "138",
-      "name": "Omanyte"
+      "name": "Amonita"
     }]
   }, {
     "id": 140,
@@ -3842,7 +3842,7 @@
   }, {
     "id": 142,
     "num": "142",
-    "name": "Aerodactyl",
+    "name": "Ptéra",
     "img": "http://www.serebii.net/pokemongo/pokemon/142.png",
     "type": [
       "Rock",
@@ -3866,7 +3866,7 @@
   }, {
     "id": 143,
     "num": "143",
-    "name": "Snorlax",
+    "name": "Ronflex",
     "img": "http://www.serebii.net/pokemongo/pokemon/143.png",
     "type": [
       "Normal"
@@ -3885,7 +3885,7 @@
   }, {
     "id": 144,
     "num": "144",
-    "name": "Articuno",
+    "name": "Artikodin",
     "img": "http://www.serebii.net/pokemongo/pokemon/144.png",
     "type": [
       "Ice",
@@ -3908,7 +3908,7 @@
   }, {
     "id": 145,
     "num": "145",
-    "name": "Zapdos",
+    "name": "Electhor",
     "img": "http://www.serebii.net/pokemongo/pokemon/145.png",
     "type": [
       "Electric",
@@ -3929,7 +3929,7 @@
   }, {
     "id": 146,
     "num": "146",
-    "name": "Moltres",
+    "name": "Sulfura",
     "img": "http://www.serebii.net/pokemongo/pokemon/146.png",
     "type": [
       "Fire",
@@ -3951,14 +3951,14 @@
   }, {
     "id": 147,
     "num": "147",
-    "name": "Dratini",
+    "name": "Minidraco",
     "img": "http://www.serebii.net/pokemongo/pokemon/147.png",
     "type": [
       "Dragon"
     ],
     "height": "1.80 m",
     "weight": "3.3 kg",
-    "candy": "Dratini Candy",
+    "candy": "Minidraco Candy",
     "candy_count": 25,
     "egg": "10 km",
     "spawn_chance": 0.30,
@@ -3975,22 +3975,22 @@
     ],
     "next_evolution": [{
       "num": "148",
-      "name": "Dragonair"
+      "name": "Draco"
     }, {
       "num": "149",
-      "name": "Dragonite"
+      "name": "Dracolosse"
     }]
   }, {
     "id": 148,
     "num": "148",
-    "name": "Dragonair",
+    "name": "Draco",
     "img": "http://www.serebii.net/pokemongo/pokemon/148.png",
     "type": [
       "Dragon"
     ],
     "height": "3.99 m",
     "weight": "16.5 kg",
-    "candy": "Dratini Candy",
+    "candy": "Minidraco Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
     "spawn_chance": 0.02,
@@ -4004,16 +4004,16 @@
     ],
     "prev_evolution": [{
       "num": "147",
-      "name": "Dratini"
+      "name": "Minidraco"
     }],
     "next_evolution": [{
       "num": "149",
-      "name": "Dragonite"
+      "name": "Dracolosse"
     }]
   }, {
     "id": 149,
     "num": "149",
-    "name": "Dragonite",
+    "name": "Dracolosse",
     "img": "http://www.serebii.net/pokemongo/pokemon/149.png",
     "type": [
       "Dragon",
@@ -4021,7 +4021,7 @@
     ],
     "height": "2.21 m",
     "weight": "210.0 kg",
-    "candy": "Dratini Candy",
+    "candy": "Minidraco Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0011,
     "avg_spawns": 0.11,
@@ -4035,10 +4035,10 @@
     ],
     "prev_evolution": [{
       "num": "147",
-      "name": "Dratini"
+      "name": "Minidraco"
     }, {
       "num": "148",
-      "name": "Dragonair"
+      "name": "Draco"
     }]
   }, {
     "id": 150,
