@@ -25,15 +25,15 @@
     ],
     "next_evolution": [{
       "num": "002",
-      "name": "Ivysaur"
+      "name": "Herbizarre"
     }, {
       "num": "003",
-      "name": "Venusaur"
+      "name": "Florizarre"
     }]
   }, {
     "id": 2,
     "num": "002",
-    "name": "Ivysaur",
+    "name": "Herbizarre",
     "img": "http://www.serebii.net/pokemongo/pokemon/002.png",
     "type": [
       "Grass",
@@ -59,16 +59,16 @@
     ],
     "prev_evolution": [{
       "num": "001",
-      "name": "Bulbasaur"
+      "name": "Bulbizarre"
     }],
     "next_evolution": [{
       "num": "003",
-      "name": "Venusaur"
+      "name": "Florizarre"
     }]
   }, {
     "id": 3,
     "num": "003",
-    "name": "Venusaur",
+    "name": "Florizarre",
     "img": "http://www.serebii.net/pokemongo/pokemon/003.png",
     "type": [
       "Grass",
@@ -90,15 +90,15 @@
     ],
     "prev_evolution": [{
       "num": "001",
-      "name": "Bulbasaur"
+      "name": "Bulbizarre"
     }, {
       "num": "002",
-      "name": "Ivysaur"
+      "name": "Florizarre"
     }]
   }, {
     "id": 4,
     "num": "004",
-    "name": "Charmander",
+    "name": "Salamèche",
     "img": "http://www.serebii.net/pokemongo/pokemon/004.png",
     "type": [
       "Fire"
@@ -119,15 +119,15 @@
     ],
     "next_evolution": [{
       "num": "005",
-      "name": "Charmeleon"
+      "name": "Reptincel"
     }, {
       "num": "006",
-      "name": "Charizard"
+      "name": "Dracaufeu"
     }]
   }, {
     "id": 5,
     "num": "005",
-    "name": "Charmeleon",
+    "name": "Reptincel",
     "img": "http://www.serebii.net/pokemongo/pokemon/005.png",
     "type": [
       "Fire"
@@ -148,16 +148,16 @@
     ],
     "prev_evolution": [{
       "num": "004",
-      "name": "Charmander"
+      "name": "Salamèche"
     }],
     "next_evolution": [{
       "num": "006",
-      "name": "Charizard"
+      "name": "Dracaufeu"
     }]
   }, {
     "id": 6,
     "num": "006",
-    "name": "Charizard",
+    "name": "Dracaufeu",
     "img": "http://www.serebii.net/pokemongo/pokemon/006.png",
     "type": [
       "Fire",
