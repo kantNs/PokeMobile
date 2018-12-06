@@ -11,8 +11,11 @@ import android.widget.Toast
 import android.widget.Toast.LENGTH_SHORT
 import com.bumptech.glide.Glide
 import com.github.vincebrees.pokemonlist.R
+import com.github.vincebrees.pokemonlist.domain.Common
+import com.github.vincebrees.pokemonlist.domain.ItemClickListener
 import com.github.vincebrees.pokemonlist.domain.Pokemon
 import kotlinx.android.synthetic.main.pokemon_view_holder.view.*
+import javax.sql.CommonDataSource
 
 /**
  * Created by Vincent ETIENNE on 19/11/2018.
@@ -27,10 +30,27 @@ class PokemonAdapter(val context: Context, var listModel: List<Pokemon>) : Recyc
 
     override fun getItemCount() = listModel.size
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) = holder.bindItem(listModel[position])
+    override fun onBindViewHolder(holder: ViewHolder, position: Int){
+        holder.bindItem(listModel[position])
+        holder.setitemClickListener(object: ItemClickListener{
+            override fun onClick(view: View, position: Int) {
+                //Toast.makeText(context,listModel[position].name ,LENGTH_SHORT)
+                 ///   .show();
+                LocalBroadcastManager.getInstance(context)
+                   .sendBroadcast(Intent(Common.KEY_ENABLE_HOME).putExtra("position",position))
+
+            }
+
+        })
+    }
 
 
     class ViewHolder(val context: Context, itemView: View) : RecyclerView.ViewHolder(itemView) {
+
+        internal var itemClickListener: ItemClickListener?=null
+        fun setitemClickListener(itemClickListener: ItemClickListener){
+            this.itemClickListener=itemClickListener
+        }
 
 
 
@@ -41,10 +61,11 @@ class PokemonAdapter(val context: Context, var listModel: List<Pokemon>) : Recyc
                     .load(model.img)
                     .into(item_pokemon_img);
                 itemView.setOnClickListener {
-                    Toast.makeText(context, model.name,LENGTH_SHORT).show();
-                   // LocalBroadcastManager.getInstance(context)
-                    //    .sendBroadcast(Intent(Common.KEY_ENABLE_HOME).putExtra("name",model.name))
-                    }
+                    view ->
+                    itemClickListener!!.onClick(view,adapterPosition)
+                }
+                    //Toast.makeText(context, model.name,LENGTH_SHORT).show();
+                    //
             }
         }
     }
