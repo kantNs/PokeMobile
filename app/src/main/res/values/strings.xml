@@ -3,4 +3,12 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <item name="name" type="id"></item>
+    <item name="height" type="id"></item>
+    <item name="weight" type="id"></item>
+    <item name="recycler_type" type="id"/>
+    <item name="recycler_weakness" type="id"/>
+    <item name="recycler_prev_evolution" type="id"/>
+    <item name="recycler_next_evolution" type="id"/>
+    <item name="pokemon_image" type="id"/>
 </resources>
