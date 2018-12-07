@@ -1,6 +1,8 @@
 package com.github.vincebrees.pokemonlist.presentation.pokemonlist
 
 import android.content.Context
+import android.content.Intent
+import android.support.v4.content.LocalBroadcastManager
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -47,7 +49,11 @@ class PokemonEvolutionAdapter(internal var context: Context, internal var evolut
 
             init {
                 chip = itemView.findViewById(R.id.chip) as Chip
-                chip.setOnChipClickListener { Toast.makeText(context, "Clicked", Toast.LENGTH_SHORT).show() }
+                chip.setOnChipClickListener {
+
+                    LocalBroadcastManager.getInstance(context)
+                        .sendBroadcast(Intent(Common.KEY_NUM_EVOLUTION).putExtra("num", evolutionList!![adapterPosition].num))
+                }
             }
 
 

@@ -57,6 +57,32 @@ class PokemonListActivity : AppCompatActivity() {
         }
 
     }
+    private val showEvolution = object:BroadcastReceiver(){
+
+        override fun onReceive(p0: Context?, intent: Intent?) {
+            if(intent!!.action!!.toString() == Common.KEY_NUM_EVOLUTION)
+            {
+
+                //Replacement Fragment
+                val detailFragment=PokemonDetail.getInstance()
+                val bundle=Bundle()
+                val num =intent.getStringExtra("num")
+                bundle.putString("num",num)
+                detailFragment.arguments=bundle
+
+                val fragmentTransaction= supportFragmentManager.beginTransaction()
+                fragmentTransaction.remove(detailFragment)
+                fragmentTransaction.replace(R.id.constlayout,detailFragment)
+                fragmentTransaction.addToBackStack("detail")
+                fragmentTransaction.commit()
+
+                // toolbar avec nom pokemon
+                val pokemon=Common.findPokemonByNum(num)
+                toolbar.setTitle(pokemon!!.name)
+            }
+        }
+
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -69,6 +95,8 @@ class PokemonListActivity : AppCompatActivity() {
         //enregistrer le broadcast
         LocalBroadcastManager.getInstance(this)
             .registerReceiver(showDetail, IntentFilter(Common.KEY_ENABLE_HOME))
+        LocalBroadcastManager.getInstance(this)
+            .registerReceiver(showEvolution, IntentFilter(Common.KEY_NUM_EVOLUTION))
     }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
