@@ -20,5 +20,7 @@ data class Pokemon(
     val avg_spawns: Double,
     val spawn_time: String,
     val multipliers: List<Double?>,
-    val weaknesses: List<String>
+    val weaknesses: List<String>,
+    val next_evolution:List<Evolution>,
+    val prev_evolution:List<Evolution>
 )

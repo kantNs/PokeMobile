@@ -94,7 +94,8 @@ class PokemonListActivity : AppCompatActivity() {
         viewModel.liveDataListPokemon.observe(this, Observer {
             list -> if(list != null){
                         setupRecyclerView(list)
-                         pokeList=list
+                        pokeList=list
+                        Common.pokemonList=list
                     }
 
         })
