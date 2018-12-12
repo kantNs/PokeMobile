@@ -130,10 +130,10 @@ class PokemonListActivity : AppCompatActivity() {
     }
 
     private fun setupRecyclerView(list: List<Pokemon>) {
-        val linearLayoutManager = LinearLayoutManager(this)
+        /*val linearLayoutManager = LinearLayoutManager(this)
         recycler_list_pokemon.layoutManager = linearLayoutManager
         recycler_list_pokemon.adapter = PokemonAdapter(this, list)
         val dividerItemDecoration = DividerItemDecoration(recycler_list_pokemon.context, linearLayoutManager.orientation)
-        recycler_list_pokemon.addItemDecoration(dividerItemDecoration)
+        recycler_list_pokemon.addItemDecoration(dividerItemDecoration)*/
     }
 }
