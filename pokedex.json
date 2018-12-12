@@ -34,7 +34,7 @@
     "id": 2,
     "num": "002",
     "name": "Herbizarre",
-    "img": "http://www.serebii.net/pokemongo/pokemon/002.png",
+    "img": "http://www.pkparaiso.com/imagenes/xy/sprites/animados/ivysaur.gif",
     "type": [
       "Plante",
       "Poison"
@@ -69,7 +69,7 @@
     "id": 3,
     "num": "003",
     "name": "Florizarre",
-    "img": "http://www.serebii.net/pokemongo/pokemon/003.png",
+    "img": "http://www.pkparaiso.com/imagenes/xy/sprites/animados/venusaur.gif",
     "type": [
       "Plante",
       "Poison"
@@ -99,7 +99,7 @@
     "id": 4,
     "num": "004",
     "name": "Salamèche",
-    "img": "http://www.serebii.net/pokemongo/pokemon/004.png",
+    "img": "http://www.pkparaiso.com/imagenes/xy/sprites/animados/charmander.gif",
     "type": [
       "Feu"
     ],
@@ -128,7 +128,7 @@
     "id": 5,
     "num": "005",
     "name": "Reptincel",
-    "img": "http://www.serebii.net/pokemongo/pokemon/005.png",
+    "img": "http://www.pkparaiso.com/imagenes/xy/sprites/animados/charmeleon.gif",
     "type": [
       "Feu"
     ],
