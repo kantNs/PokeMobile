@@ -35,13 +35,29 @@ Pour lancer l'application il vous suffit de Run votre application :
 Nous vous conseillons d'utiliser une API 26 ou 28 car c'est avec ces API que nous avons effectué notre developpement.
 
 
-### Resultat
+## Resultat
 
+Voici le résultat:
+![Alt text](/images/pokeList.png?raw=true)
+
+Nous affichons une liste avec des éléments cliquables, lorsque vous cliquez sur ces éléments une page de détail apparait.
 ![Alt text](/images/reptincel.png?raw=true "Reptincel")
 
+Sur cette page détail vous pouvez également cliquer sur les évolutions pour afficher leur fiche de détail:
+![Alt text](/images/dracaufeu.png?raw=true )
+
+
+### Idées à deployer dans le futur
+
+*Résoudre le problème causé par l'implantation de la toolbar
+*Faire une searchbar
+*Faire un tri par type (feu,eau,...)
+*Improve le layout de la liste de pokemon
+*Rajouter les différentes générations pokemon
+*...
 
 ## Auteurs
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **DAUGUET Julien** - [Brookaid](https://github.com/Brookaid)
 
 
