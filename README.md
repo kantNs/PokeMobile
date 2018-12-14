@@ -38,12 +38,15 @@ Nous vous conseillons d'utiliser une API 26 ou 28 car c'est avec ces API que nou
 ## Resultat
 
 Voici le résultat:
+
 ![Alt text](/images/pokeList.png?raw=true)
 
-Nous affichons une liste avec des éléments cliquables, lorsque vous cliquez sur ces éléments une page de détail apparait.
+Nous affichons une liste avec des éléments cliquables, lorsque vous cliquez sur ces éléments une page de détail apparait:
+
 ![Alt text](/images/reptincel.png?raw=true "Reptincel")
 
 Sur cette page détail vous pouvez également cliquer sur les évolutions pour afficher leur fiche de détail:
+
 ![Alt text](/images/dracaufeu.png?raw=true )
 
 
@@ -59,6 +62,8 @@ Sur cette page détail vous pouvez également cliquer sur les évolutions pour a
 
 ### Petits détails
 
+Nous avons récupéré une API anglaise que nous avons modifié pour avoir les noms en français, cette API est disponible
+à la racine de notre projet.
 La toolbar fonctionne lors de l'affichage du détail d'un pokemon mais la flèche est invisible...
 Nous avons essayé de rajouter quelques unes des fonctionnalités listées ci-dessus mais malheureusement,
 cela nous obligeait à repenser toute la structure de base de notre code et par manque de temps nous ne l'avons pas fait.
