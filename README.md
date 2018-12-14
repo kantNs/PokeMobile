@@ -73,5 +73,7 @@ cela nous obligeait à repenser toute la structure de base de notre code et par 
 ## Auteurs
 
 * **DAUGUET Julien** - [Brookaid](https://github.com/Brookaid)
+* **NESARATNAM Kantharuban** - [kantNs](https://github.com/kantNs)
+* **ROLLIER David** - [DouuZzer](https://github.com/DouuZzer)
 
 
