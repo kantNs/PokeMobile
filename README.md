@@ -13,12 +13,24 @@ Clone le repository de ce projet
 
 Nous vous conseillons, une fois sur android studio de faire :
 
-![Alt text](/images/reptincel.png?raw=true "Reptincel")
+Check out from VC :
+
+![Alt text](/images/gitcheckout.png?raw=true)
+
+Puis de préciser l'URL du dépot Git :
+
+![Alt text](/images/gitURL.png?raw=true)
+
+Enfin, pensez bien à selectionner Android Gradle:
+
+![Alt text](/images/androidGradle.png?raw=true)
+
+
 
 ## Running the tests
 
 Explain how to run the automated tests for this system
-
+![Alt text](/images/reptincel.png?raw=true "Reptincel")
 ### Break down into end to end tests
 
 Explain what these tests test and why
