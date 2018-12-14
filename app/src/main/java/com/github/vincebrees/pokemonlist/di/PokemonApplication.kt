@@ -2,9 +2,7 @@ package com.github.vincebrees.pokemonlist.di
 
 import android.app.Application
 
-/**
- * Created by Vincent ETIENNE on 19/11/2018.
- */
+
 
 class PokemonApplication : Application() {
 

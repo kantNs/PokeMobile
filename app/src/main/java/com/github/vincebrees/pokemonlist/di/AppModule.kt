@@ -7,9 +7,7 @@ import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
 
-/**
- * Created by Vincent ETIENNE on 19/11/2018.
- */
+
 
 @Module
 class AppModule(private val application: PokemonApplication) {

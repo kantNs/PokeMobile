@@ -1,4 +1,4 @@
-package com.github.vincebrees.pokemonlist.presentation.pokemonlist
+package com.github.vincebrees.pokemonlist.presentation.pokemonlist.Activity
 
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
@@ -8,20 +8,22 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
-import android.support.v4.app.FragmentTransaction
 import android.support.v4.content.LocalBroadcastManager
-import android.support.v7.app.ActionBar
 import android.support.v7.widget.DividerItemDecoration
-import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.LinearLayoutManager
-import android.util.Log
 import android.view.MenuItem
 import com.github.vincebrees.pokemonlist.R
 import com.github.vincebrees.pokemonlist.domain.Common
 import com.github.vincebrees.pokemonlist.domain.Pokemon
+import com.github.vincebrees.pokemonlist.presentation.pokemonlist.Adapter.PokemonAdapter
+import com.github.vincebrees.pokemonlist.presentation.pokemonlist.Fragment.PokemonDetail
+import com.github.vincebrees.pokemonlist.presentation.pokemonlist.PokemonViewModel
 import kotlinx.android.synthetic.main.activity_pokemon_list.*
+
+/*
+    Main activity qui se lance au début de l'appli, c'est ici que l'appli va savoir quel layout afficher en premier
+ */
 
 class PokemonListActivity : AppCompatActivity() {
 
@@ -39,7 +41,8 @@ class PokemonListActivity : AppCompatActivity() {
                 supportActionBar!!.setDisplayShowHomeEnabled(true)
 
                 //Replacement Fragment
-                val detailFragment=PokemonDetail.getInstance()
+                val detailFragment=
+                    PokemonDetail.getInstance()
                 val position=intent.getIntExtra("position",-1)
                 val bundle=Bundle()
                 bundle.putInt("position",position)
@@ -64,7 +67,8 @@ class PokemonListActivity : AppCompatActivity() {
             {
 
                 //Replacement Fragment
-                val detailFragment=PokemonDetail.getInstance()
+                val detailFragment=
+                    PokemonDetail.getInstance()
                 val bundle=Bundle()
                 val num =intent.getStringExtra("num")
                 bundle.putString("num",num)
@@ -89,7 +93,7 @@ class PokemonListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_pokemon_list)
         initViewModel()
         initObserver()
-        toolbar.setTitle("Liste de pokemon")
+        toolbar.setTitle("Pokedex 1ère Génération")
         setSupportActionBar(toolbar)
 
         //enregistrer le broadcast
@@ -132,7 +136,8 @@ class PokemonListActivity : AppCompatActivity() {
     private fun setupRecyclerView(list: List<Pokemon>) {
         val linearLayoutManager = LinearLayoutManager(this)
         recycler_list_pokemon.layoutManager = linearLayoutManager
-        recycler_list_pokemon.adapter = PokemonAdapter(this, list)
+        recycler_list_pokemon.adapter =
+                PokemonAdapter(this, list)
         val dividerItemDecoration = DividerItemDecoration(recycler_list_pokemon.context, linearLayoutManager.orientation)
         recycler_list_pokemon.addItemDecoration(dividerItemDecoration)
     }

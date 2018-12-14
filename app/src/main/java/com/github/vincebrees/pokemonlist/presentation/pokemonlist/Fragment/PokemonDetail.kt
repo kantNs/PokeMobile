@@ -1,4 +1,4 @@
-package com.github.vincebrees.pokemonlist.presentation.pokemonlist
+package com.github.vincebrees.pokemonlist.presentation.pokemonlist.Fragment
 
 
 import android.os.Bundle
@@ -15,17 +15,18 @@ import com.bumptech.glide.Glide
 import com.github.vincebrees.pokemonlist.R
 import com.github.vincebrees.pokemonlist.domain.Common
 import com.github.vincebrees.pokemonlist.domain.Pokemon
-import kotlinx.android.synthetic.main.fragment_pokemon_detail.*
+import com.github.vincebrees.pokemonlist.presentation.pokemonlist.Adapter.PokemonEvolutionAdapter
+import com.github.vincebrees.pokemonlist.presentation.pokemonlist.Adapter.PokemonTypeAdapter
 
-// TODO: Rename parameter arguments, choose names that match
+
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- *
- */
+/*  Fragment permettant d'afficher le détail d'un pokemon
+    Très maniable par rapport à une activité,
+    Un fragment peu être appelé à n'importe quel moment */
+
 class PokemonDetail : Fragment() {
 
     internal lateinit var pokemon_img:ImageView
@@ -41,11 +42,12 @@ class PokemonDetail : Fragment() {
 
 
     companion object {
-        internal var instance:PokemonDetail?=null
+        internal var instance: PokemonDetail?=null
 
-        fun getInstance():PokemonDetail{
+        fun getInstance(): PokemonDetail {
             if(instance == null){
-                instance =PokemonDetail()
+                instance =
+                        PokemonDetail()
             }
             return instance!!
         }
@@ -97,28 +99,42 @@ class PokemonDetail : Fragment() {
 
     private fun setDetailPokemon(pokemon: Pokemon?) {
 
-        //charger l'image
+        //charger l'image avec Glide
         Glide.with(activity!!)
             .load(pokemon!!.img)
             .into(pokemon_img)
 
         pokemon_name.text = pokemon.name
-        pokemon_height.text="Height: "+pokemon.height
-        pokemon_weight.text="Weight: "+pokemon.weight
+        pokemon_height.text="Taille: "+pokemon.height
+        pokemon_weight.text="Poids: "+pokemon.weight
 
-        val typeAdapter=PokemonTypeAdapter(activity!!,pokemon.type)
+        val typeAdapter= PokemonTypeAdapter(
+            activity!!,
+            pokemon.type
+        )
         recycler_type.adapter=typeAdapter
 
-        val weaknessAdapter=PokemonTypeAdapter(activity!!,pokemon.weaknesses)
+        val weaknessAdapter= PokemonTypeAdapter(
+            activity!!,
+            pokemon.weaknesses
+        )
         recycler_weakness.adapter=weaknessAdapter
 
         if(pokemon.next_evolution != null){
-            val nextEvolution = PokemonEvolutionAdapter(activity!!, pokemon.next_evolution )
+            val nextEvolution =
+                PokemonEvolutionAdapter(
+                    activity!!,
+                    pokemon.next_evolution
+                )
             recycler_next_evolution.adapter = nextEvolution
 
         }
         if(pokemon.prev_evolution != null){
-            val prevEvolution = PokemonEvolutionAdapter(activity!!,pokemon.prev_evolution)
+            val prevEvolution =
+                PokemonEvolutionAdapter(
+                    activity!!,
+                    pokemon.prev_evolution
+                )
             recycler_prev_evolution.adapter = prevEvolution
         }
 

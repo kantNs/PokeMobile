@@ -8,9 +8,7 @@ import io.reactivex.schedulers.Schedulers
 import javax.inject.Inject
 import javax.inject.Singleton
 
-/**
- * Created by Vincent ETIENNE on 19/11/2018.
- */
+
 
 @Singleton
 class PokemonRepositoryImpl @Inject constructor(

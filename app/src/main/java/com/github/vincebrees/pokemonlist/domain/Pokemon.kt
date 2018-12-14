@@ -1,7 +1,7 @@
 package com.github.vincebrees.pokemonlist.domain
 
-/**
- * Created by Vincent ETIENNE on 19/11/2018.
+/*
+       Objet Pokemon avec ses attributs correspondant à ceux de l'API
  */
 
 data class Pokemon(

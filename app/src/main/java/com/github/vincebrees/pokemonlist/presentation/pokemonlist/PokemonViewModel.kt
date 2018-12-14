@@ -12,9 +12,8 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import javax.inject.Inject
 
-/**
- * Created by Vincent ETIENNE on 19/11/2018.
- */
+/*  Le ViewModel travaille avec le DataModel pour récupérer et sauvegarder les données.
+C'est le package compositeDisposable qui va s'en occuper  */
 
 class PokemonViewModel : ViewModel(), LifecycleObserver {
 
@@ -33,7 +32,7 @@ class PokemonViewModel : ViewModel(), LifecycleObserver {
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe({ list -> liveDataListPokemon.value = list
             }, { t: Throwable? ->
-                //TODO Show Error on Screen
+
                 t!!.printStackTrace()
             })
 

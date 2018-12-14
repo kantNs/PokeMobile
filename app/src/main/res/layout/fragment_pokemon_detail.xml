@@ -5,7 +5,7 @@
                 android:background="@color/colorPrimary"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                tools:context=".presentation.pokemonlist.PokemonDetail">
+                tools:context=".presentation.pokemonlist.Fragment.PokemonDetail">
 
     <RelativeLayout android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -66,7 +66,7 @@
                 </android.support.v7.widget.RecyclerView>
 
                 <TextView
-                        android:text="Weakness"
+                        android:text="Faiblesses"
                         android:layout_marginBottom="10dp"
                         android:textSize="16sp"
                         android:textStyle="bold"
@@ -80,7 +80,7 @@
                 </android.support.v7.widget.RecyclerView>
 
                 <TextView
-                        android:text="Prev Evolution"
+                        android:text="Pré-evolution"
                         android:layout_marginBottom="10dp"
                         android:textSize="16sp"
                         android:textStyle="bold"
@@ -93,7 +93,7 @@
                 </android.support.v7.widget.RecyclerView>
 
                 <TextView
-                        android:text="Next Evolution"
+                        android:text="Evolution"
                         android:layout_marginBottom="10dp"
                         android:textSize="16sp"
                         android:textStyle="bold"

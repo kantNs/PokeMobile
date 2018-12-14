@@ -5,8 +5,10 @@ import com.github.vincebrees.pokemonlist.domain.Pokemon;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * Created by Vincent ETIENNE on 26/11/2018.
+/*
+    Class permettant de manipuler la liste de pokemons(se déplacer,connaitre la taille,...)
+    Avec les getters et les setters ainsi que quelques méthodes
+    Cette méthode est la version Java
  */
 
 //Old Way to have a Pojo with Java

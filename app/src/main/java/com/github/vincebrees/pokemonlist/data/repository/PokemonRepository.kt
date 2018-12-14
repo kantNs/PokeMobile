@@ -3,8 +3,8 @@ package com.github.vincebrees.pokemonlist.data.repository
 import com.github.vincebrees.pokemonlist.domain.Pokemon
 import io.reactivex.Single
 
-/**
- * Created by Vincent ETIENNE on 19/11/2018.
+/*
+        Simple méthode permettant de renvoyer la liste de Pokemons
  */
 
 interface PokemonRepository{

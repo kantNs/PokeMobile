@@ -1,4 +1,4 @@
-package com.github.vincebrees.pokemonlist.presentation.pokemonlist
+package com.github.vincebrees.pokemonlist.presentation.pokemonlist.Adapter
 
 import android.content.Context
 import android.content.Intent
@@ -7,12 +7,15 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import com.github.vincebrees.pokemonlist.R
 import com.github.vincebrees.pokemonlist.domain.Common
 
 import com.github.vincebrees.pokemonlist.domain.Evolution
 import com.robertlevonyan.views.chip.Chip
+
+/*
+   L'Adapter permet de faire l'intermédiaire entre les données et la vue, ici il s'agit du nom des évolutions du pokemon
+*/
 
 class PokemonEvolutionAdapter(internal var context: Context, internal var evolutionList:List<Evolution>?):
     RecyclerView.Adapter<PokemonEvolutionAdapter.MyViewHolder>() {
@@ -21,7 +24,7 @@ class PokemonEvolutionAdapter(internal var context: Context, internal var evolut
         holder.chip.changeBackgroundColor(Common.getColorByType(Common.findPokemonByNum(evolutionList!![position].num!!)!!.type!![0]))
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PokemonEvolutionAdapter.MyViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val itemView= LayoutInflater.from(context).inflate(R.layout.chip_item,parent,false)
         return MyViewHolder(itemView)
     }
@@ -41,11 +44,6 @@ class PokemonEvolutionAdapter(internal var context: Context, internal var evolut
 
         inner class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
             internal var chip: Chip
-            //internal var iItemClickListener:ItemClickListener? =null
-
-            //fun setItemClickListener(itemClickListener: ItemClickListener){
-            //    this.iItemClickListener=itemClickListener
-            //} view->iItemClickListener!!.onClick(view,adapterPosition
 
             init {
                 chip = itemView.findViewById(R.id.chip) as Chip

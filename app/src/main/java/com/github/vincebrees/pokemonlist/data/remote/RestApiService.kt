@@ -8,9 +8,7 @@ import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path
 
-/**
- * Created by Vincent ETIENNE on 19/11/2018.
- */
+
 
 interface RestApiService{
 

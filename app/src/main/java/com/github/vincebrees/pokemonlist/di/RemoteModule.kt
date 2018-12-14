@@ -1,8 +1,4 @@
 package com.github.vincebrees.pokemonlist.di
-
-/**
- * Created by Vincent ETIENNE on 19/11/2018.
- */
 import com.github.vincebrees.pokemonlist.data.remote.RestApiService
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
@@ -16,6 +12,9 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
+/*
+        Appel des differents modules notamment celui permettant d'interpréter un json
+ */
 
 @Module
 class RemoteModule {
