@@ -49,12 +49,12 @@ Sur cette page détail vous pouvez également cliquer sur les évolutions pour a
 
 ### Idées à deployer dans le futur
 
-*Résoudre le problème causé par l'implantation de la toolbar
-*Faire une searchbar
-*Faire un tri par type (feu,eau,...)
-*Improve le layout de la liste de pokemon
-*Rajouter les différentes générations pokemon
-*...
+* **Résoudre le problème causé par l'implantation de la toolbar**
+* **Faire une searchbar**
+* **Faire un tri par type (feu,eau,...)**
+* **Improve le layout de la liste de pokemon**
+* **Rajouter les différentes générations pokemon**
+* **...**
 
 ## Auteurs
 
