@@ -68,6 +68,8 @@ object Common {
 
 
             "Eau" -> return Color.parseColor("#658FF1")
+
+            "Vol" -> return Color.parseColor("#658FF1")
             else -> return Color.parseColor("#658FA0")
         }
     }

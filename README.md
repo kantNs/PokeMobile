@@ -56,6 +56,13 @@ Sur cette page détail vous pouvez également cliquer sur les évolutions pour a
 * **Rajouter les différentes générations pokemon**
 * **...**
 
+
+### Petits détails
+
+La toolbar fonctionne lors de l'affichage du détail d'un pokemon mais la flèche est invisible...
+Nous avons essayé de rajouter quelques unes des fonctionnalités listées ci-dessus mais malheureusement,
+cela nous obligeait à repenser toute la structure de base de notre code et par manque de temps nous ne l'avons pas fait.
+
 ## Auteurs
 
 * **DAUGUET Julien** - [Brookaid](https://github.com/Brookaid)
