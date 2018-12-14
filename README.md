@@ -7,7 +7,8 @@ Voici une application android dévelopée dans le cadre d'un projet de 4ème ann
 ### Prerequis
 
 Android Studio : https://developer.android.com/studio/
-Clone le repository de ce projet
+
+Cloner le repository de ce projet
 
 ### Installation
 
@@ -32,7 +33,8 @@ Pour lancer l'application il vous suffit de Run votre application :
 
 ![Alt text](/images/run.png?raw=true)
 
-Nous vous conseillons d'utiliser une API 26 ou 28 car c'est avec ces API que nous avons effectué notre developpement.
+Nous vous conseillons d'utiliser une API d'android 26 ou 28 car c'est avec ces API que nous avons effectué nos tests durant
+notre developpement.
 
 
 ## Resultat
